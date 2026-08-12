@@ -1,0 +1,26 @@
+{
+  "name": "pugstragram",
+  "version": "1.0.0",
+  "description": "Red social para pugs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "author": "Harvin Zapata",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.29.7",
+    "babel-loader": "^10.1.1",
+    "svelte": "^5.56.8",
+    "svelte-loader": "^3.2.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.8",
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2",
+    "webpack-dev-server": "^5.2.6"
+  }
+}
