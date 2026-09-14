@@ -14,6 +14,8 @@
 
       comments = [...comments, message];
       event.currentTarget.reset();
+    } else {
+      alert('El comentario es muy corto. Debe tener al menos 4 caracteres.');
     }
   }
 </script>
